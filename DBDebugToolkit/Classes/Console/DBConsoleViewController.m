@@ -22,7 +22,8 @@
 
 #import "DBConsoleViewController.h"
 #import <MessageUI/MessageUI.h>
-#import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#import "NSBundle+BuildInfo.h"
+
 @interface DBConsoleViewController () <DBConsoleOutputCaptorDelegate, MFMailComposeViewControllerDelegate>
 
 @property (nonatomic, strong) IBOutlet UITextView *textView;

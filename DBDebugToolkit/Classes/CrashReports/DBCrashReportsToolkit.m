@@ -27,7 +27,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <sys/sysctl.h>
-#import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#import "NSBundle+BuildInfo.h"
+#import "UIWindow+keyWindow.h"
 
 typedef void (*sighandler_t)(int);
 

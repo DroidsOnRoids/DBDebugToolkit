@@ -37,7 +37,7 @@
 #import "DBCrashReportsToolkit.h"
 #import "DBTopLevelViewsWrapper.h"
 #import "UIApplication+DBDebugToolkit.h"
-#import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#import "UIWindow+keyWindow.h"
 
 static NSString *const DBDebugToolkitObserverPresentationControllerPropertyKeyPath = @"containerView";
 

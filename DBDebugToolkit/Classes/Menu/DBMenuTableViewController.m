@@ -31,7 +31,7 @@
 #import "DBCustomActionsTableViewController.h"
 #import "DBCustomVariablesTableViewController.h"
 #import "DBCrashReportsTableViewController.h"
-#import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#import "NSBundle+BuildInfo.h"
 
 typedef NS_ENUM(NSUInteger, DBMenuTableViewControllerRow) {
     DBMenuTableViewControllerRowPerformance,

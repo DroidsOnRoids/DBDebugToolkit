@@ -26,7 +26,7 @@
 #import "DBTextViewViewController.h"
 #import "DBImageViewViewController.h"
 #import <MessageUI/MessageUI.h>
-#import <DBDebugToolkit/DBDebugToolkit-Swift.h>
+#import "NSBundle+BuildInfo.h"
 
 typedef NS_ENUM(NSUInteger, DBCrashReportDetailsTableViewControllerSection) {
     DBCrashReportDetailsTableViewControllerSectionDetails,
