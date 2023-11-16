@@ -108,7 +108,7 @@
 #import "DBGridOverlayColorScheme.h"
 #import "DBGridOverlaySettingsTableViewController.h"
 #import "DBGridOverlayView.h"
-
+#import "UIWindow+keyWindow.h"
+#import "NSBundle+BuildInfo.h"
 FOUNDATION_EXPORT double DBDebugToolkitVersionNumber;
 FOUNDATION_EXPORT const unsigned char DBDebugToolkitVersionString[];
-
